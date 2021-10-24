@@ -77,6 +77,15 @@ export const educationData = [
   },
 ];
 
+export const experienceData = [
+  {
+    nameOfCompany: "P2L Impact Power Learning Pvt. Ltd.",
+    date: "Jun 2021 – Aug 2021",
+    designation: "Frontend Developer Intern",
+    text: "Working on an open-source project DoorstepDelhi to create various components like transactions, returns, orders etc. Turning Figma designs into React components. Using React.js and Material-UI for creating UI’s",
+  },
+];
+
 export const accomplishments = [
   { rank: "2nd", text: "In Project competetion held by GMIT." },
   { rank: "1st", text: "In bachelors degree in my university." },

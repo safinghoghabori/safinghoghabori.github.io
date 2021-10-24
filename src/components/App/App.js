@@ -7,9 +7,9 @@ import Hero from "../Hero/Hero";
 import BgAnimation from "../BackgroundAnimation/BackgroundAnimation";
 import Projects from "../Projects/Projects";
 import Technologies from "../Technologies/Technologies";
-import Timeline from "../TimeLine/TimeLine";
 import Acomplishments from "../Acomplishments/Acomplishments";
 import Education from "../Education/Education";
+import Experience from "../Experience/Experience";
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
             <BgAnimation />
           </Section>
           <Education />
-          <Projects />
           <Technologies />
-          {/* <Timeline /> */}
+          <Experience />
+          <Projects />
           <Acomplishments />
         </Layout>
       </Theme>
