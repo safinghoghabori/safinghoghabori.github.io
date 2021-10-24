@@ -10,6 +10,7 @@ import Technologies from "../Technologies/Technologies";
 import Acomplishments from "../Acomplishments/Acomplishments";
 import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
+import AboutMe from "../AboutMe/AboutMe";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Hero />
             <BgAnimation />
           </Section>
+          <AboutMe />
           <Education />
           <Technologies />
           <Experience />
