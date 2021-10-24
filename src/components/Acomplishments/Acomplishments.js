@@ -10,7 +10,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 import { accomplishments } from "../../constants/constants";
 
 const Acomplishments = () => (
-  <Section>
+  <Section id="accomplishments">
     <SectionDivider />
     <br />
     <SectionTitle>Accomplishments</SectionTitle>

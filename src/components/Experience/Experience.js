@@ -14,7 +14,7 @@ import { experienceData } from "../../constants/constants";
 
 const Experience = () => {
   return (
-    <Section>
+    <Section id="experience">
       <SectionDivider />
       <br />
 

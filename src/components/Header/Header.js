@@ -38,23 +38,38 @@ const Header = () => (
 
     <Div2>
       <li>
-        <Link to="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link to="#technologies">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link to="#about">
+        <a href="#about">
           <NavLink>About</NavLink>
-        </Link>
+        </a>
+      </li>
+      <li>
+        <a href="#education">
+          <NavLink>Education</NavLink>
+        </a>
+      </li>
+      <li>
+        <a href="#technologies">
+          <NavLink>Technologies</NavLink>
+        </a>
+      </li>
+      <li>
+        <a href="#experience">
+          <NavLink>Experience</NavLink>
+        </a>
+      </li>
+      <li>
+        <a href="#projects">
+          <NavLink>Projects</NavLink>
+        </a>
+      </li>
+      <li>
+        <a href="#accomplishments">
+          <NavLink>Accomplishments</NavLink>
+        </a>
       </li>
     </Div2>
 
-    <Div3>
+    {/* <Div3>
       <SocialIcons href="https://github.com/safinghoghabori" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
@@ -64,7 +79,7 @@ const Header = () => (
       <SocialIcons href="https://github.com/safinghoghabori" target="_blank">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
-    </Div3>
+    </Div3> */}
   </Container>
 );
 

@@ -16,7 +16,7 @@ import { educationData } from "../../constants/constants";
 
 const Education = () => {
   return (
-    <Section>
+    <Section id="education">
       <SectionDivider />
       <br />
 
