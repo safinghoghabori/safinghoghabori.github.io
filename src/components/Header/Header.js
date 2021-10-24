@@ -1,6 +1,5 @@
-import Link from "next/link";
-import Head from "next/head";
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -17,16 +16,10 @@ import {
   SocialIcons,
 } from "./HeaderStyles";
 
-// import image from "./icon.png";
-
 const Header = () => (
   <Container>
-    <Head>
-      <title>My page title</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    </Head>
     <Div1>
-      <Link href="/">
+      <Link to="/">
         <a
           style={{
             display: "flex",
@@ -40,17 +33,17 @@ const Header = () => (
 
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link to="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#technologies">
+        <Link to="#technologies">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link to="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
