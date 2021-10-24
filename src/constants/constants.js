@@ -57,16 +57,27 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    year: "2021 - Present",
+    title: "Masters in Computer Application",
+    college: "Nirma University",
+    text: "Started my journey with master's degree.",
+  },
+  {
+    year: "2018 - 2021",
+    title: "Bachelors in Computer Application",
+    college: "Shree Swaminarayan College Of Computer Science",
+    text: "Compeleted bachelor's with distinction.",
+  },
+  {
+    year: "2017 - 2018",
+    title: "Class XII",
+    college: "Shree R.K. Gharshala",
+    text: "Compeleted 12th std. with first rank in school.",
+  },
 ];
 
 export const accomplishments = [
-  { rank: 20, text: "Open Source Projects" },
-  { rank: 1000, text: "Students" },
-  { rank: 1900, text: "Github Followers" },
-  { rank: 5000, text: "Github Stars" },
+  { rank: "2nd", text: "Runners up in Project competetion held by GMIT." },
+  { rank: "1st", text: "In bachelors degree in my university." },
 ];
