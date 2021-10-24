@@ -56,7 +56,7 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
+export const educationData = [
   {
     year: "2021 - Present",
     title: "Masters in Computer Application",
@@ -78,6 +78,6 @@ export const TimeLineData = [
 ];
 
 export const accomplishments = [
-  { rank: "2nd", text: "Runners up in Project competetion held by GMIT." },
+  { rank: "2nd", text: "In Project competetion held by GMIT." },
   { rank: "1st", text: "In bachelors degree in my university." },
 ];

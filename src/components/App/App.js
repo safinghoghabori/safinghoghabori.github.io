@@ -9,6 +9,7 @@ import Projects from "../Projects/Projects";
 import Technologies from "../Technologies/Technologies";
 import Timeline from "../TimeLine/TimeLine";
 import Acomplishments from "../Acomplishments/Acomplishments";
+import Education from "../Education/Education";
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
             <Hero />
             <BgAnimation />
           </Section>
+          <Education />
           <Projects />
           <Technologies />
-          <Timeline />
+          {/* <Timeline /> */}
           <Acomplishments />
         </Layout>
       </Theme>
