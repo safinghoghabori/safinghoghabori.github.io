@@ -19,10 +19,15 @@ import {
   SocialIconsContainer,
 } from "./FooterStyles";
 
+import icon from "../../images/icon.png";
+
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
+        <div>
+          <img src={icon} alt="icon" />
+        </div>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:916353949986">+91 6353949986</LinkItem>
@@ -38,22 +43,28 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>
             This site is made with <AiFillHeart /> by{" "}
-            <a href="https://github.com/safinghoghabori" target="_blank">
+            <a
+              href="https://github.com/safinghoghabori"
+              target="_blank"
+              style={{ color: "#2196f3" }}
+            >
               Safin Ghoghabori
             </a>
             .
           </Slogan>
         </CompanyContainer>
 
-        <SocialIcons href="https://github.com/safinghoghabori">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://github.com/safinghoghabori">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://github.com/safinghoghabori">
-          <AiFillTwitterCircle size="3rem" />
-        </SocialIcons>
+        <SocialContainer>
+          <SocialIcons href="https://github.com/safinghoghabori">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com/safinghoghabori">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://github.com/safinghoghabori">
+            <AiFillTwitterCircle size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

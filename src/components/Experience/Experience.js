@@ -30,7 +30,7 @@ const Experience = () => {
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date={data.date}
             dateClassName="date_formate"
-            iconStyle={{ background: "rgb(245, 0, 87)", color: "#fff" }}
+            iconStyle={{ background: "#2196f3", color: "#fff" }}
             icon={<BsFillBagFill />}
           >
             <h1 className="vertical-timeline-element-title">
