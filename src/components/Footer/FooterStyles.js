@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterWrapper = styled.section`
-  width: calc(100vw - 96px);
+  //width: calc(100vw - 96px);
   max-width: 1040px;
   padding: 2rem 48px 40px;
   margin: 1rem auto;
@@ -9,7 +9,7 @@ export const FooterWrapper = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
-    width: calc(100vw - 32px);
+    //width: calc(100vw - 32px);
   }
 `;
 
@@ -130,6 +130,8 @@ export const LinkList = styled.ul`
     padding: 32px 4px 16px;
     gap: 5px;
   }
+
+  //@media screen and (max-width: )
 `;
 
 export const LinkColumn = styled.div`
