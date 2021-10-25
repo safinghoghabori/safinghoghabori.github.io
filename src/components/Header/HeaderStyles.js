@@ -65,7 +65,7 @@ export const Div2 = styled.div`
       padding: 2rem 0;
       font-weight: bold;
       letter-spacing: 0.5rem;
-      color: red;
+      color: #1f3a73;
       text-decoration: none;
       transition: color 0.3s linear;
 
@@ -75,7 +75,7 @@ export const Div2 = styled.div`
       }
 
       &:hover {
-        color: ${({ theme }) => theme.primaryHover};
+        color: ${({ theme }) => theme.primary1};
       }
     }
 `;
