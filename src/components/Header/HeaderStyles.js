@@ -75,7 +75,7 @@ export const Div2 = styled.div`
       }
 
       &:hover {
-        color: ${({ theme }) => theme.primary1};
+        color: #1f3a7352;
       }
     }
 `;

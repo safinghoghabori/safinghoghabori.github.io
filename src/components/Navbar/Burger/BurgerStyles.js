@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledBurger = styled.button`
+display:none;
 @media screen and (max-width: 800px) {
-
 position: absolute;
 top: 5%;
 right: 2rem;
