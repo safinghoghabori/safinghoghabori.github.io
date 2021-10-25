@@ -55,13 +55,22 @@ const Footer = () => {
         </CompanyContainer>
 
         <SocialContainer>
-          <SocialIcons href="https://github.com/safinghoghabori">
+          <SocialIcons
+            href="https://github.com/safinghoghabori"
+            target="_blank"
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com/safinghoghabori">
+          <SocialIcons
+            href="https://www.linkedin.com/in/safin-ghoghabori"
+            target="_blank"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com/safinghoghabori">
+          <SocialIcons
+            href="https://twitter.com/GhoghaboriSafin"
+            target="_blank"
+          >
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>

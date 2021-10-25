@@ -35,8 +35,49 @@ export const Div2 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
-
   align-items: center;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 800px) {
+    z-index:1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: ${({ theme }) => theme.colors.primary1};
+    height: 100vh;
+    text-align: left;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+    
+    overflow-x: hidden;
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+      width: 100%;
+    }
+
+    a {
+      font-size: 2rem;
+      text-transform: uppercase;
+      padding: 2rem 0;
+      font-weight: bold;
+      letter-spacing: 0.5rem;
+      color: red;
+      text-decoration: none;
+      transition: color 0.3s linear;
+
+      @media (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      &:hover {
+        color: ${({ theme }) => theme.primaryHover};
+      }
+    }
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
@@ -125,3 +166,6 @@ export const SocialIcons = styled.a`
     cursor: pointer;
   }
 `;
+
+//Menu styles
+export const StyledMenu = styled.nav``;

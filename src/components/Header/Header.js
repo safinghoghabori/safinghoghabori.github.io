@@ -15,11 +15,12 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  StyledMenu,
 } from "./HeaderStyles";
 
 import icon from "../../images/icon.png";
 
-const Header = () => (
+const Header = ({ open }) => (
   <Container>
     <Div1>
       <Link to="/">
@@ -36,7 +37,7 @@ const Header = () => (
       </Link>
     </Div1>
 
-    <Div2>
+    <Div2 open={open}>
       <li>
         <a href="#about">
           <NavLink>About</NavLink>
@@ -68,7 +69,6 @@ const Header = () => (
         </a>
       </li>
     </Div2>
-
     {/* <Div3>
       <SocialIcons href="https://github.com/safinghoghabori" target="_blank">
         <AiFillGithub size="3rem" />

@@ -1,15 +1,27 @@
-import React from 'react'
+import React, { useState, useRef } from "react";
 
-import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
-import { Container } from './LayoutStyles'
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Burger from "../components/Navbar/Burger/Burger";
+import { Container } from "./LayoutStyles";
 
-export const Layout = ({children}) => {
+//import the hook
+import { useOnClickOutside } from "../Hooks/hook";
+
+export const Layout = ({ children }) => {
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+
+  useOnClickOutside(node, () => setOpen(false));
+
   return (
     <Container>
-     <Header/>
-     <main>{children}</main> 
-     <Footer/>
+      <div ref={node}>
+        <Header open={open} setOpen={setOpen} />
+        <Burger open={open} setOpen={setOpen} />
+      </div>
+      <main>{children}</main>
+      <Footer />
     </Container>
-  )
-}
+  );
+};
