@@ -19,7 +19,15 @@ const Hero = (props) => (
         I am a MCA post-gradute student. I like to design and develop web
         applications. Currently residing in Ahmedabad, India.
       </SectionText>
-      <Button>Hire me!</Button>
+      <Button>
+        <a
+          href="https://drive.google.com/file/d/1gDjCsL3Z6W0ZwJSP8iw8RzHWdkN_0r8s/view?usp=sharing"
+          target="_blank"
+          style={{ color: "#fff" }}
+        >
+          Hire me!
+        </a>
+      </Button>
     </LeftSection>
   </Section>
 );
