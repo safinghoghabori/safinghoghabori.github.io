@@ -16,7 +16,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Movie Adda",
     description:
       "It's movie database clone built using React, Redux, MovieDB Api. In this website user can view and explore different movies, PLOT, IMDB rating, Director, Actors and search specific movies.",
     image: movieaddImg,
@@ -80,7 +80,7 @@ export const educationData = [
 export const experienceData = [
   {
     nameOfCompany: "P2L Impact Power Learning Pvt. Ltd.",
-    date: "Jun 2021 – Aug 2021",
+    date: "Jun 2021 – Jul 2021",
     designation: "Frontend Developer Intern",
     text: "Working on an open-source project DoorstepDelhi to create various components like transactions, returns, orders etc. Turning Figma designs into React components. Using React.js and Material-UI for creating UI’s",
   },
