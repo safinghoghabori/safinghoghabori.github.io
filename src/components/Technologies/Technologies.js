@@ -36,6 +36,17 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
+        <DiReact size="3rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js, Redux, Material-UI
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
         <DiNodejsSmall size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
