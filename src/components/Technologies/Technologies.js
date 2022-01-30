@@ -1,5 +1,5 @@
 import React from "react";
-import { DiDatabase, DiNodejsSmall, DiReact } from "react-icons/di";
+import { DiDatabase, DiNodejsSmall, DiReact, DiCode } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -18,19 +18,19 @@ const Technologies = () => (
   <Section id="technologies">
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world.
-      From Front-end to Back-end.
+      I've worked with many programming languages and a range of technologies in
+      the web development world. From Front-end to Back-end.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <DiCode size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js, Redux, Material-UI
+            Familiar with <br />
+            C, C++, Java, Javascript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, Redux, Material-UI
+            HTML, CSS, Javascript, Bootstrap, React.js, Redux, Material-UI
           </ListParagraph>
         </ListContainer>
       </ListItem>
