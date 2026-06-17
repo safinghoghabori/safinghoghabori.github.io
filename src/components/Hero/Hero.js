@@ -16,8 +16,8 @@ const Hero = (props) => (
         Safin Ghoghabori
       </SectionTitle>
       <SectionText>
-        I am an MCA post-gradute student. I like to design and develop web
-        applications. Currently residing in Ahmedabad, India.
+        I am a Software Engineer. I like to design and develop mobile
+        applications. Currently residing in Pune, India.
       </SectionText>
       <Button>
         <a

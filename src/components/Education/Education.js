@@ -38,7 +38,7 @@ const Education = () => {
             <h1 className="vertical-timeline-element-title">{data.title}</h1>
             <h3
               className="vertical-timeline-element-subtitle"
-              style={{ color: "rebeccapurple" }}
+              style={{ color: "lightgreen" }}
             >
               {data.college}
             </h3>
