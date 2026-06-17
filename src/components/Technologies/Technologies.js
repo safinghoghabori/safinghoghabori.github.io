@@ -41,7 +41,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            HTML, CSS, Javascript, Bootstrap, React.js, Redux, Material-UI
+            HTML, CSS, Javascript, Typescript, React, Redux, Redux Toolkit, Expo, Android, iOS, Xcode, Android Studio
           </ListParagraph>
         </ListContainer>
       </ListItem>

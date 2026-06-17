@@ -43,24 +43,24 @@ const Header = ({ open }) => (
           <NavLink>About</NavLink>
         </a>
       </li>
-      <li>
-        <a href="#education">
-          <NavLink>Education</NavLink>
-        </a>
-      </li>
-      <li>
-        <a href="#technologies">
-          <NavLink>Technologies</NavLink>
-        </a>
-      </li>
-      <li>
+     <li>
         <a href="#experience">
           <NavLink>Experience</NavLink>
         </a>
       </li>
       <li>
+        <a href="#technologies">
+          <NavLink>Skills</NavLink>
+        </a>
+      </li>
+      <li>
         <a href="#projects">
           <NavLink>Projects</NavLink>
+        </a>
+      </li>
+       <li>
+        <a href="#education">
+          <NavLink>Education</NavLink>
         </a>
       </li>
       <li>

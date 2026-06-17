@@ -58,10 +58,10 @@ export const projects = [
 
 export const educationData = [
   {
-    year: "2021 - Present",
+    year: "2021 - 2023",
     title: "Masters in Computer Application",
     college: "Nirma University",
-    text: "Started my journey with master's degree.",
+    text: "Completed master's degree with distinction.",
   },
   {
     year: "2018 - 2021",
@@ -79,14 +79,32 @@ export const educationData = [
 
 export const experienceData = [
   {
-    nameOfCompany: "P2L Impact Power Learning Pvt. Ltd.",
+    nameOfCompany: "Intangles",
+    date: "Aug 2025 – Present",
+    designation: "Mobile App Developer",
+    text: "Building mobile apps for mobility industry",
+  },
+  {
+    nameOfCompany: "G1 Global",
+    date: "Aug 2024 – Jul 2025",
+    designation: "Associate Software Engineer",
+    text: "Developed user-friendly mobile app features for the healthcare industry using React Native and Expo. (Product: G1 Health). Took responsibility for resolving critical bugs and configured the iOS app, as the project was originally focused only on the Android version",
+  },
+  {
+    nameOfCompany: "Cactus Communications",
+    date: "Jan 2023 – Apr 2024",
+    designation: "Software Engineer",
+    text: "Implemented Search, Ask R Discovery, Paper Stories, and Localization features on the app. Achieved 35% performance improvement by applying performance optimization techniques in the Search module. Collaborated with Product Managers, Backend team, QAs to ensure timely product delivery",
+  },
+  {
+    nameOfCompany: "Power2Create",
     date: "Jun 2021 – Jul 2021",
     designation: "Frontend Developer Intern",
-    text: "Working on an open-source project DoorstepDelhi to create various components like transactions, returns, orders etc. Turning Figma designs into React components. Using React.js and Material-UI for creating UI’s",
+    text: "Developed various components for the DoorstepDelhi project, including transactions, returns, and orders. Converted Figma designs to React components. Utilized React, Redux, and Material-UI for creating the user interface",
   },
 ];
 
 export const accomplishments = [
-  { rank: "2nd", text: "In Project competetion held by GMIT." },
-  { rank: "1st", text: "In bachelors degree in my university." },
+  { rank: "1st", text: "Bachelors degree in the university." },
+  { rank: "2nd", text: "Project competetion held by Gyanmanjari Institute of Technology." },
 ];

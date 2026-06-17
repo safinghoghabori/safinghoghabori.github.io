@@ -22,10 +22,10 @@ function App() {
             <BgAnimation />
           </Section>
           <AboutMe />
-          <Education />
-          <Technologies />
           <Experience />
+          <Technologies />
           <Projects />
+          <Education />
           <Acomplishments />
         </Layout>
       </Theme>

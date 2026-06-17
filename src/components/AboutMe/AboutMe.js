@@ -12,11 +12,11 @@ const AboutMe = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I’m a Full-Stack Developer. I have a passion for writing clean and
+        I’m a Full-Stack/Mobile Engineer. I have a passion for writing clean and
         modular code. I am also keen on maintaining beautiful and responsive UI.
         <br />
         <br />
-        My favourite stack: React, Node, Express, MongoDB
+        My favourite stack: Javascript, Typescript, React, Redux, Node, Express, MongoDB, React Native, Expo, Android, iOS
         <br />
         <br />
         Nowadays I'm exploring more about Javascript and its different
