@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.171dec31.chunk.css",
-    "main.js": "/static/js/main.7980e5f6.chunk.js",
-    "main.js.map": "/static/js/main.7980e5f6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4a8307a3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4a8307a3.js.map",
+    "main.css": "/static/css/main.e1789380.chunk.css",
+    "main.js": "/static/js/main.1d6429c1.chunk.js",
+    "main.js.map": "/static/js/main.1d6429c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ccd4f8da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ccd4f8da.js.map",
     "static/css/2.2e99a83d.chunk.css": "/static/css/2.2e99a83d.chunk.css",
-    "static/js/2.6e623f5c.chunk.js": "/static/js/2.6e623f5c.chunk.js",
-    "static/js/2.6e623f5c.chunk.js.map": "/static/js/2.6e623f5c.chunk.js.map",
-    "static/js/3.e031db09.chunk.js": "/static/js/3.e031db09.chunk.js",
-    "static/js/3.e031db09.chunk.js.map": "/static/js/3.e031db09.chunk.js.map",
+    "static/js/2.f00147a9.chunk.js": "/static/js/2.f00147a9.chunk.js",
+    "static/js/2.f00147a9.chunk.js.map": "/static/js/2.f00147a9.chunk.js.map",
+    "static/js/3.31fd46dd.chunk.js": "/static/js/3.31fd46dd.chunk.js",
+    "static/js/3.31fd46dd.chunk.js.map": "/static/js/3.31fd46dd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2e99a83d.chunk.css.map": "/static/css/2.2e99a83d.chunk.css.map",
-    "static/css/main.171dec31.chunk.css.map": "/static/css/main.171dec31.chunk.css.map",
-    "static/js/2.6e623f5c.chunk.js.LICENSE.txt": "/static/js/2.6e623f5c.chunk.js.LICENSE.txt",
+    "static/css/main.e1789380.chunk.css.map": "/static/css/main.e1789380.chunk.css.map",
+    "static/js/2.f00147a9.chunk.js.LICENSE.txt": "/static/js/2.f00147a9.chunk.js.LICENSE.txt",
     "static/media/chatapp.a0b1b6a5.png": "/static/media/chatapp.a0b1b6a5.png",
     "static/media/dashboard.cafa0e3d.png": "/static/media/dashboard.cafa0e3d.png",
     "static/media/foody.a96afb82.png": "/static/media/foody.a96afb82.png",
@@ -21,10 +21,10 @@
     "static/media/movieadda.529bc540.png": "/static/media/movieadda.529bc540.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a8307a3.js",
+    "static/js/runtime-main.ccd4f8da.js",
     "static/css/2.2e99a83d.chunk.css",
-    "static/js/2.6e623f5c.chunk.js",
-    "static/css/main.171dec31.chunk.css",
-    "static/js/main.7980e5f6.chunk.js"
+    "static/js/2.f00147a9.chunk.js",
+    "static/css/main.e1789380.chunk.css",
+    "static/js/main.1d6429c1.chunk.js"
   ]
 }

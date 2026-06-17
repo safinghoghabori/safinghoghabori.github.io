@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Education/education.css"],"names":[],"mappings":"AAAA,cACE,wBACF","file":"main.e1789380.chunk.css","sourcesContent":[".date_formate {\n  font-size: 2rem !important;\n}\n"]}
